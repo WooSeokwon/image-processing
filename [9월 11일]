@@ -1,0 +1,13 @@
+1) Menu 
+ - resource view : menu판 만들때
+ - class wizard : menu handler를 등록
+ - view.cpp : menu handler의 본체(program) 작성
+ 
+2) 이미지 처리 함수
+ - Doc.h 파일에서 함수를 선언
+ - Doc.cpp파일에서 함수 본체 작성
+ 
+3) Dialog Box
+ - resource view : Dialog 판 만들기
+ - classwizard를 통해 Dialog class를 등록. Dialog의 Control의 변수 추가
+ - Doc.cpp에 ~dlg.h를 include ( ex. #include "~dlg.h"
